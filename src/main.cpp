@@ -115,8 +115,6 @@ int main() {
             ptsx_car.push_back(car_x);
             ptsy_car.push_back(car_y);
           }
-          double px_car = px * cos_psi + py * sin_psi;
-          double py_car = -px * sin_psi + py * cos_psi;
 
           int ptsx_size = ptsx_car.size();
           double *ptsx_ptr = &ptsx_car[0];
